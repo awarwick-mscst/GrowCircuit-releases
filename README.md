@@ -1,7 +1,7 @@
 🌱 GrowCircuit
 A grow room monitor and grow journal for Windows that keeps everything on your own computer.
 
-GrowCircuit tracks indoor grows from veg through flower to harvest, and — with a sensor in the room — records what the environment was doing the whole time. It is built for people growing high-value crops where a missed light flip, a humidity spike or a drifting nutrient mix costs real money.
+GrowCircuit tracks indoor grows from veg through flower to harvest, and with a sensor in the room, records what the environment was doing the whole time. It is built for people growing high-value crops where a missed light flip, a humidity spike or a drifting nutrient mix costs real money.
 
 This repository holds the installers. Download the newest one from ../../releases.
 
@@ -25,7 +25,7 @@ GrowCircuit includes its own sensor broker (MQTT, port 1883), so there is nothin
 
 The official hardware is an ESP32 board with a temperature/humidity sensor, a light sensor, and optionally a nutrient (TDS) probe. It sets itself up over a Wi-Fi captive portal, so there is no configuration file to edit and nothing to flash by hand. Sensor firmware updates are delivered through the app: Settings › Sensors shows an Update button when a newer signed image is available, and the sensor installs it over the air.
 
-The protocol is deliberately open — any MQTT device that can publish a line like this will work:
+The protocol is deliberately open, any MQTT device that can publish a line like this will work:
 
 { "temp_c": 24.6, "humidity": 55.2, "light_on": true, "ppm": 840 }
 Settings › Diagnostics shows the raw traffic the broker is seeing and a live console of the sensor's own log output, over USB or Wi-Fi, for when something is not showing up.
