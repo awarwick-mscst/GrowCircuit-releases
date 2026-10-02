@@ -1,0 +1,62 @@
+GrowCircuit
+
+Copyright (c) 2026 Aaron Warwick. All rights reserved.
+
+GrowCircuit, including its source code, compiled programs, installers,
+firmware, documentation, designs and every other file in this repository
+(together, "the Software"), is proprietary. It is owned by Aaron Warwick and
+protected by copyright and other intellectual property laws. Nothing here is
+open source, and no licence to the source code is granted to anyone.
+
+1. Permission to use the app
+
+   You may download the official GrowCircuit installer from an official
+   GrowCircuit release, install it, and use the installed app, free of
+   charge, for your own personal or business purposes. That is the only
+   permission given. Everything not expressly permitted is reserved.
+
+2. What you may not do
+
+   Except where a law that cannot be overridden by agreement says otherwise,
+   you may not:
+
+   a. copy the Software, other than installing it as described above and
+      making ordinary backups of your own data;
+   b. modify, translate or adapt the Software, or create any work based on
+      it or derived from it;
+   c. decompile, disassemble or reverse engineer the Software, or try to
+      reconstruct its source code;
+   d. distribute, publish, sell, rent, lend, sublicense or host the Software,
+      or make it available to anyone else, in whole or in part;
+   e. use the Software, any part of it, or any knowledge of how it works
+      gained from it, to build, train, improve or offer a product or service
+      that competes with GrowCircuit;
+   f. remove or change any copyright, trademark or other notice in it.
+
+3. Access to the source code
+
+   The source code is confidential. If you have been given access to it, for
+   example to work on GrowCircuit, that access is for that work only. You
+   may not copy it elsewhere, share it, or use it for anything else, and you
+   must stop using it and delete your copies when asked or when the work
+   ends. Anything you contribute to GrowCircuit may be used, changed and
+   sold by Aaron Warwick without restriction or payment.
+
+4. Ending this permission
+
+   This permission ends automatically if you break any of these terms. When
+   it ends you must stop using the Software and delete every copy.
+
+5. No warranty, and limited liability
+
+   The Software is provided as is, without warranty of any kind, and as far
+   as the law allows its owner is not liable for any loss or damage arising
+   from it. The full terms are in DISCLAIMER.md, which forms part of these
+   terms.
+
+The GrowCircuit sensor message format, the small JSON messages sensors send
+over MQTT, is the one exception: devices may be built to send messages in
+that format. That permission covers the format only, not any of the
+Software.
+
+For any other use, ask first: https://github.com/awarwick-mscst
